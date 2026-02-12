@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0F2027</color>
+    <color name="bg_mid">#203A43</color>
+    <color name="bg_light">#2C5364</color>
+    <color name="neon_cyan">#00E5FF</color>
+    <color name="neon_teal">#26D0CE</color>
+    <color name="glass_white">#80FFFFFF</color>
+    <color name="glass_dark">#33000000</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#CCFFFFFF</color>
+</resources>

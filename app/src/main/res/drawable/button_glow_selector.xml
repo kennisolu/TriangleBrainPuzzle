@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#0B1020"/> <!-- background stays dark -->
+            <corners android:radius="20dp"/>
+            <stroke android:width="3dp" android:color="#00FFFF"/> <!-- glow thick -->
+            <padding android:left="12dp" android:top="12dp" android:right="12dp" android:bottom="12dp"/>
+        </shape>
+    </item>
+
+    <!-- Default state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#0B1020"/>
+            <corners android:radius="20dp"/>
+            <stroke android:width="2dp" android:color="#40E5FF"/> <!-- soft glow -->
+            <padding android:left="12dp" android:top="12dp" android:right="12dp" android:bottom="12dp"/>
+        </shape>
+    </item>
+
+</selector>

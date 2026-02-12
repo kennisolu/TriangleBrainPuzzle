@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "550681030048",
+    "project_id": "triangle-brain-puzzle",
+    "storage_bucket": "triangle-brain-puzzle.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550681030048:android:5e8c2b5cfb8d78f76008c5",
+        "android_client_info": {
+          "package_name": "com.triangle brain.puzzle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3klJH1ELgsFg-58xXiayMjraqeFihAoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

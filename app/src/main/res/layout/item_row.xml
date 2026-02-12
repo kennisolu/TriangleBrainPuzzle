@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/spacing_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/TextTitle"/>
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/TextDescription"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/lock"
+        android:layout_width="@dimen/lock_size"
+        android:layout_height="@dimen/lock_size"
+        android:src="@drawable/ic_lock"/>
+</merge>

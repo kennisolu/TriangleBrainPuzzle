@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextTitle" parent="BaseText">
+        <item name="android:textSize">@dimen/text_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextDescription" parent="BaseText">
+        <item name="android:textSize">@dimen/text_description_size</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="BodyText" parent="BaseText">
+        <item name="android:textSize">@dimen/text_body_size</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="GlassButtonText">
+        <item name="android:textSize">@dimen/text_glass_button_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/neon_cyan</item>
+    </style>
+
+    <style name="StandardButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:paddingStart">@dimen/button_margin_horizontal</item>
+        <item name="android:paddingEnd">@dimen/button_margin_horizontal</item>
+
+        <!-- Material-specific attributes -->
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="backgroundTint">@color/neon_teal</item>
+
+        <item name="android:textAppearance">@style/GlassButtonText</item>
+    </style>
